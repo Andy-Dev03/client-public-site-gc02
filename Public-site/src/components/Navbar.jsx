@@ -33,9 +33,12 @@ const Navbar = () => {
               )}
             </ul>
 
-            <button className="bg-gradient-to-r from-orange-500 to-red-600 px-8 py-2 rounded-full mr-4 hover:from-orange-400 hover:to-red-500 transition duration-200 hover:shadow-sm shadow-gray-600">
+            <a
+              href="https://client-cms-site-gc02.vercel.app/login"
+              className="bg-gradient-to-r from-orange-500 to-red-600 px-8 py-2 rounded-full mr-4 hover:from-orange-400 hover:to-red-500 transition duration-200 hover:shadow-sm shadow-gray-600"
+            >
               <span className="text-white font-bold">Login</span>
-            </button>
+            </a>
           </div>
         </nav>
       </div>
