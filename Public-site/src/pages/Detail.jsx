@@ -83,7 +83,7 @@ const Detail = () => {
                 <img
                   src={cuisineDetail?.imgUrl}
                   alt={cuisineDetail?.name}
-                  className="w-full h-100 object-cover object-center"
+                  className="w-full h-100 object-cover object-center border-b border-b-gray-400"
                 />
 
                 {/* <!-- Content Section --> */}
