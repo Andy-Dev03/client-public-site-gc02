@@ -148,7 +148,7 @@ const Home = () => {
               </div>
             </form>
 
-            <div className="grid md:grid-cols-2 gap-12">
+            <div className="grid md:grid-cols-2 gap-6">
               {/* <!-- Filter --> */}
               <select
                 value={filter}
