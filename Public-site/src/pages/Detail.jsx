@@ -11,7 +11,7 @@ const Detail = () => {
   const fetchDetail = async () => {
     try {
       const { data } = await axios.get(
-        `http://localhost:3000/pub/cuisines/${id}`
+        `https://www.andylie.web.id/pub/cuisines/${id}`
       );
       // console.log(data);
 

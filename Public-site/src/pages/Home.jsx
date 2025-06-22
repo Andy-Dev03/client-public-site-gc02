@@ -18,7 +18,7 @@ const Home = () => {
   async function fetchPubCuisines() {
     try {
       const { data } = await axios.get(
-        `http://localhost:3000/pub/cuisines/?page=${currentPage}&search=${search}&sort=${sort}&filter=${filter}`
+        `https://www.andylie.web.id/pub/cuisines/?page=${currentPage}&search=${search}&sort=${sort}&filter=${filter}`
       );
       // console.log(data);
 
