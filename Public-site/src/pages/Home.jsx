@@ -49,7 +49,9 @@ const Home = () => {
 
   async function fetchCategories() {
     try {
-      const { data } = await axios.get(`http://localhost:3000/pub/categories/`);
+      const { data } = await axios.get(
+        `https://www.andylie.web.id/pub/categories/`
+      );
       // console.log(data);
 
       setCategories(data?.data);
