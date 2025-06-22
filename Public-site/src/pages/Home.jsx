@@ -113,11 +113,11 @@ const Home = () => {
         <section className="px-4 py-32 text-center text-white bg-gradient-to-r from-blue-600/20 via-transparent to-orange-600/20">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-white via-orange-200 to-orange-400 bg-clip-text text-transparent">
-              Website Project Restaurant
+              Restaurant Website Projec
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
-              This project was made from monday and has to finish in 1 week, Of
-              course i will burn out :).
+              A modern restaurant website built to showcase delicious menus,
+              categories, and everything food lovers need.
             </p>
             <a
               href="/#allC"

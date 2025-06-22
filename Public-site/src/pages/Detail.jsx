@@ -51,10 +51,11 @@ const Detail = () => {
             {/* <!-- Header --> */}
             <div className="text-center mb-12 bg-gradient-to-r from-blue-600/20 via-transparent to-orange-600/20 py-12 rounded-2xl shadow-xl/50 shadow-white/80">
               <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-orange-100/90 to-orange-400 bg-clip-text text-transparent">
-                Welcome to Detail Cuisines Page
+                Discover More About This Cuisine
               </h1>
               <p className="font-bold text-gray-300 text-lg leading-relaxed">
-                In here you can find whatever cuisines you like :3
+                Learn more about this dish — from its price and category to who
+                created it.
               </p>
             </div>
 
